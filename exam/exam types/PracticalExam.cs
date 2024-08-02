@@ -62,7 +62,7 @@ namespace exam
 
                     do
                     {
-                        Console.WriteLine("enter the right answer id (1 for true | 2 for false) ");
+                        Console.WriteLine("enter the right answer id  ");
 
                     } while (!(int.TryParse(Console.ReadLine(), out useranswer)) || useranswer < 1 || useranswer > 2);
 

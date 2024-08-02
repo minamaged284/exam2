@@ -20,7 +20,7 @@ namespace exam
             SubjectName = subjectName;
         }
 
-        public void setupExam()
+        public void createExam()
         {
 
 
