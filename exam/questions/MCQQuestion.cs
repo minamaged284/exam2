@@ -3,8 +3,7 @@
     public class MCQQuestion : Question
     {
 
-        public Answer[] Answers { get; set; }
-        public Answer RightAnswer { get; set; }
+
 
         public MCQQuestion()
         {

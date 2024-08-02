@@ -12,6 +12,7 @@ namespace exam
         public int Grade { get; set; }
 
 
+
         public Question[] QuestionsArray { get; set; }
         public Exam()
         {
