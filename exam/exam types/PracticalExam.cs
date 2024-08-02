@@ -84,10 +84,10 @@ namespace exam
             {
                 Console.WriteLine($"question {i + 1}: {exam.QuestionsArray[i].Body}");
                 Console.WriteLine($"right answer => {exam.QuestionsArray[i].RightAnswer.AnswerText}");
-                Console.WriteLine($"time = {exam.Start - exam.Finish}");
 
 
             }
+            Console.WriteLine($"time = {exam.Start - exam.Finish}");
 
             Console.WriteLine("thank you");
         }
