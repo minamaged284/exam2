@@ -17,7 +17,7 @@ namespace exam
 
 
             Subject subject = new Subject(1, "computer science");
-            subject.setupExam();
+            subject.createExam();
 
 
 
